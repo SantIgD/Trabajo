@@ -1,18 +1,10 @@
 package coop.tecso.hcd.utils;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
-
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
-
-import coop.tecso.hcd.R;
 
 public class CollectionUtils {
 
@@ -136,33 +128,6 @@ public class CollectionUtils {
         return null;
     }
 
-    public interface YesFunction {
-        void function() throws SQLException;
-    }
 
-    public interface NoFunction {
-        void function();
-    }
-
-
-    public static void createAlertDialog(int title, int mensaje, YesFunction yesFunction, NoFunction noFunction, Context context){
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle(title);
-        builder.setMessage(mensaje);
-        builder.setPositiveButton(R.string.yes,  (dialog, id) -> {
-            try {
-                yesFunction.function();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        });
-        builder.setNegativeButton(R.string.no,  (dialog, id) -> {
-            noFunction.function();
-        });
-        AlertDialog alert = builder.create();
-        alert.show();
-
-    }
 
 }

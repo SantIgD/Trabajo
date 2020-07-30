@@ -56,6 +56,7 @@ import coop.tecso.hcd.integration.UDAACoreServiceImpl;
 import coop.tecso.hcd.services.IMNotificationManager;
 import coop.tecso.hcd.services.ServiceStarter;
 import coop.tecso.hcd.services.SyncAtencionService;
+import coop.tecso.hcd.utils.CollectionUtils;
 import coop.tecso.hcd.utils.Constants;
 import coop.tecso.hcd.utils.ParamHelper;
 import coop.tecso.hcd.utils.UDAAUpdater;
@@ -521,19 +522,21 @@ public class BuildSearchPageTask extends AsyncTask<Void, CharSequence, List<Aten
     }
 
     private void confirmAndUpgrade() {
-        AlertDialog.Builder alertBuilder = new AlertDialog.Builder(mainHCActivity);
-        alertBuilder.setTitle(R.string.confirm_title);
-        alertBuilder.setMessage(ParamHelper.getString("installUpdate", mainHCActivity.getString(R.string.update_install)));
-        alertBuilder.setCancelable(false);
-        alertBuilder.setPositiveButton(R.string.yes, (dialog, id) -> mainHCActivity.startActivityForResult(appState.getUpgradeIntent(), Constants.REQUEST_UPGRADE_APP));
-        alertBuilder.setNegativeButton(R.string.no, (dialog, id) -> {
-            dialog.cancel();
-            appState.setWaitingInstallation(false);
-            mainHCActivity.checkCurrentVersion();
-        });
-
-        this.alertDialog = alertBuilder.create();
+        int title = R.string.confirm_title;
+        //ParamHelper.getString("install update",mainHCActivity.getString(R.string.update_install));
+        int mensaje = R.string.update_install;
+        this.alertDialog = GUIHelper.createAlertDialog(mainHCActivity,title,mensaje, this::launchInstallation, this::launchCancelInstallation);
         this.alertDialog.show();
+    }
+
+    private void launchInstallation(){
+        mainHCActivity.startActivityForResult(appState.getUpgradeIntent(), Constants.REQUEST_UPGRADE_APP);
+    }
+
+    private void launchCancelInstallation(){
+        dialog.cancel();
+        appState.setWaitingInstallation(false);
+        mainHCActivity.checkCurrentVersion();
     }
 
     private boolean existsUpgrade(AplicacionBinarioVersion binary) {

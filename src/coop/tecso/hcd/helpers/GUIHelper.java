@@ -10,6 +10,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.widget.Toast;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import coop.tecso.hcd.R;
@@ -64,6 +65,35 @@ public final class GUIHelper {
 		try {
 			dialog.dismiss();
 		} catch (Exception ignore) {}
+	}
+
+	public interface VoidFunction {
+		void function();
+	}
+
+	public static AlertDialog createAlertDialog(Context context, int title, int mensaje, VoidFunction yesFunction, VoidFunction noFunction){
+		String titleString = context.getString(title);
+		String mensajeString = context.getString(mensaje);
+
+		return createAlertDialog(context, titleString, mensajeString, yesFunction, noFunction);
+	}
+
+	public static AlertDialog createAlertDialog(Context context, String title, String mensaje, VoidFunction yesFunction, VoidFunction noFunction){
+		AlertDialog.Builder builder = new AlertDialog.Builder(context);
+		builder.setTitle(title);
+		builder.setMessage(mensaje);
+		builder.setPositiveButton(R.string.yes,  (dialog, id) -> {
+			if(yesFunction != null) {
+				yesFunction.function();
+			}
+		});
+
+		builder.setNegativeButton(R.string.no,  (dialog, id) -> {
+			if(noFunction != null) {
+				noFunction.function();
+			}
+		});
+		return builder.create();
 	}
 
 }
