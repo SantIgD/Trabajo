@@ -221,24 +221,9 @@ public class BuildSearchPageTask extends AsyncTask<Void, CharSequence, List<Aten
             DispositivoMovil dispositivoMovil = localService.getDispositivoMovil();
             appState.setDispositivoMovil(dispositivoMovil);
 
-            if (hasToSynchronize() || errorSync || forceSyncrhonization) {
-                try {
-                    publishProgress(mainHCActivity.getString(R.string.synchronizing_msg));
-
-                    localService.updateTablesToSync();
-                    syncTables();
-                    this.errorSync = false;
-
-                } catch (Exception e) {
-                    this.errorSync = true;
-                    Log.d(LOG_TAG, "***NO SYNC***", e);
-                    if (e.getMessage() != null && e.getMessage().equals("ERROR_SINCRONIZACION")){
-                        return false;
-                    }
-                }
-            }
-            else {
-                mainHCActivity.createLogSyncVersion = false;
+            // si retorna false es porque se estaba sincronizando y ocurrió una excepcion
+            if (!performSynchronizationProccess()){
+                return false;
             }
 
             // Elimino atenciones sincronizadas
@@ -276,6 +261,29 @@ public class BuildSearchPageTask extends AsyncTask<Void, CharSequence, List<Aten
         }
 
         generateLoginLog("Initialize HCDigital -> End");
+        return true;
+    }
+
+    private boolean performSynchronizationProccess(){
+        if (hasToSynchronize() || errorSync || forceSyncrhonization) {
+            try {
+                publishProgress(mainHCActivity.getString(R.string.synchronizing_msg));
+
+                localService.updateTablesToSync();
+                syncTables();
+                this.errorSync = false;
+
+            } catch (Exception e) {
+                this.errorSync = true;
+                Log.d(LOG_TAG, "***NO SYNC***", e);
+                if (e.getMessage() != null && e.getMessage().equals("ERROR_SINCRONIZACION")){
+                    return false;
+                }
+            }
+        }
+        else {
+            mainHCActivity.createLogSyncVersion = false;
+        }
         return true;
     }
 

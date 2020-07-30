@@ -1,6 +1,7 @@
 package coop.tecso.hcd.dao;
 
 import java.lang.reflect.ParameterizedType;
+import java.sql.SQLException;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
@@ -8,11 +9,15 @@ import java.util.List;
 import java.util.Map;
 
 import android.content.Context;
+import android.content.Intent;
 
 import com.j256.ormlite.android.apptools.OpenHelperManager;
 import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
 import com.j256.ormlite.dao.RuntimeExceptionDao;
+import com.j256.ormlite.db.DatabaseType;
+import com.j256.ormlite.stmt.DeleteBuilder;
 import com.j256.ormlite.stmt.PreparedDelete;
+import com.j256.ormlite.table.TableInfo;
 
 import coop.tecso.hcd.application.HCDigitalApplication;
 import coop.tecso.hcd.persistence.DatabaseHelper;

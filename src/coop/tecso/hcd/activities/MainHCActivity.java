@@ -105,82 +105,8 @@ public final class MainHCActivity extends ListActivity {
 
 		Button btnMensajeria = findViewById(R.id.btnMsjDigital);
 		btnMensajeria.setOnClickListener(v -> startAppMsjDigital());
-	}
 
-	private void initializeMessageBroadcastReceiver(){
-
-		HCDigitalApplication.broadcastReceiver = new BroadcastReceiver() {
-
-			@Override
-			public void onReceive(Context context, Intent intent) {
-				Bundle bundle = intent.getExtras();
-				if (bundle == null) {
-					return;
-				}
-
-				try {
-					//----| GET LISTA |---------------------------------------------------------------------
-					if (intent.getStringExtra(Constants.REFRESH) == null) {
-						return;
-					}
-					List<Atencion> atencionList = appState.getHCDigitalDAO().getListAtencion();
-					if (atencionList != null) {
-						SearchPageAdapter adapter = new SearchPageAdapter(MainHCActivity.this, atencionList);
-						setListAdapter(adapter);
-					}
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		};
-
-		try {
-			registerReceiver(HCDigitalApplication.broadcastReceiver, new IntentFilter(Constants.ACTION_REFRESH));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	private void initializeTitleReceiver(){
-
-		titleReceiver = new BroadcastReceiver() {
-			@Override
-			public void onReceive(Context context, Intent intent) {
-				MainHCActivity.this.setTitle(Utils.getFormattedTitle(context));
-				MainHCActivity.this.getActionBar().setSubtitle(Utils.getFormattedSubtitled(context));
-			}
-		};
-
-		this.registerReceiver(titleReceiver, new IntentFilter(Constants.ACTION_TITLE));
-	}
-
-	private void initializeRefreshReceiver(){
-		refreshReceiver = new BroadcastReceiver() {
-
-			@Override
-			public void onReceive(Context context, Intent intent) {
-				try {
-					new CargarListView(MainHCActivity.this).execute();
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		};
-
-		this.registerReceiver(refreshReceiver, new IntentFilter(Constants.ACTION_REFRESH_LIST));
-	}
-
-	private void initializeMMessageReceiver(){
-		mMessageReceiver = new BroadcastReceiver() {
-			@Override
-			public void onReceive(Context context, Intent intent) {
-				if (!appState.getHCDigitalDAO().existeIMAbierto()) {
-					registerIM(MainHCActivity.this);
-				}
-			}
-		};
-
-		this.registerReceiver(mMessageReceiver, new IntentFilter(Constants.NEW_ATTENTION));
+		new BuildSearchPageTask(this).execute();
 	}
 
 
@@ -201,7 +127,6 @@ public final class MainHCActivity extends ListActivity {
 			}
 		} else {
 			onSearchRequested();
-			new BuildSearchPageTask(this).execute();
 		}
 	}
 
@@ -251,21 +176,108 @@ public final class MainHCActivity extends ListActivity {
 			sendBroadcast(intentRefreshList);
 			break;
 		case R.string.synchronize:
-			BuildSearchPageTask task = new BuildSearchPageTask(this);
-			task.forceSyncrhonization = true;
-			task.execute();
+			forceSynchronization();
+			break;
+		case R.id.solveProblems:
+			ProblemSolverActivity.go(this);
 			break;
 		}
 
 		return super.onOptionsItemSelected(item);
 	}
 
+
+
 	@Override
 	protected void onListItemClick(ListView l, final View v, final int position, long id) {
 		final Activity currentAct = this;
 		openItem(currentAct, v, position);
 	}
-	
+
+
+	private void initializeMessageBroadcastReceiver(){
+
+		HCDigitalApplication.broadcastReceiver = new BroadcastReceiver() {
+
+			@Override
+			public void onReceive(Context context, Intent intent) {
+				Bundle bundle = intent.getExtras();
+				if (bundle == null) {
+					return;
+				}
+
+				try {
+					//----| GET LISTA |---------------------------------------------------------------------
+					if (intent.getStringExtra(Constants.REFRESH) == null) {
+						return;
+					}
+					List<Atencion> atencionList = appState.getHCDigitalDAO().getListAtencion();
+					if (atencionList != null) {
+						SearchPageAdapter adapter = new SearchPageAdapter(MainHCActivity.this, atencionList);
+						setListAdapter(adapter);
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		};
+
+		try {
+			registerReceiver(HCDigitalApplication.broadcastReceiver, new IntentFilter(Constants.ACTION_REFRESH));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void forceSynchronization(){
+		BuildSearchPageTask task = new BuildSearchPageTask(this);
+		task.forceSyncrhonization = true;
+		task.execute();
+	}
+
+	private void initializeTitleReceiver(){
+
+		titleReceiver = new BroadcastReceiver() {
+			@Override
+			public void onReceive(Context context, Intent intent) {
+				MainHCActivity.this.setTitle(Utils.getFormattedTitle(context));
+				MainHCActivity.this.getActionBar().setSubtitle(Utils.getFormattedSubtitled(context));
+			}
+		};
+
+		this.registerReceiver(titleReceiver, new IntentFilter(Constants.ACTION_TITLE));
+	}
+
+	private void initializeRefreshReceiver(){
+		refreshReceiver = new BroadcastReceiver() {
+
+			@Override
+			public void onReceive(Context context, Intent intent) {
+				try {
+					new CargarListView(MainHCActivity.this).execute();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		};
+
+		this.registerReceiver(refreshReceiver, new IntentFilter(Constants.ACTION_REFRESH_LIST));
+	}
+
+	private void initializeMMessageReceiver(){
+		mMessageReceiver = new BroadcastReceiver() {
+			@Override
+			public void onReceive(Context context, Intent intent) {
+				if (!appState.getHCDigitalDAO().existeIMAbierto()) {
+					registerIM(MainHCActivity.this);
+				}
+			}
+		};
+
+		this.registerReceiver(mMessageReceiver, new IntentFilter(Constants.NEW_ATTENTION));
+	}
+
+
 	protected void openItem(Activity currentAct, View v, int position) {
 		// Verifica perdida de session
 		if (!appState.canAccess()) {
@@ -664,6 +676,10 @@ public final class MainHCActivity extends ListActivity {
             System.runFinalization();
             System.exit(0);
         }
+		else if (requestCode == Constants.PROBLEM_SOLVER_REQUEST_CODE && resultCode == RESULT_OK) {
+			this.finish();
+			System.exit(0);
+		}
 	}
 
 	@Override

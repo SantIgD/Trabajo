@@ -89,4 +89,6 @@ public final class Constants {
 
 	public static final String WIFI_AP_STATE_CHANGED = "android.net.wifi.WIFI_AP_STATE_CHANGED";
 
+	public static final int PROBLEM_SOLVER_REQUEST_CODE = 69;
+
 }

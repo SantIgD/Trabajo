@@ -34,6 +34,7 @@ import java.util.Map;
 
 import coop.tecso.IUDAAService;
 import coop.tecso.hcd.application.HCDigitalApplication;
+import coop.tecso.hcd.dao.TablaVersionDAO;
 import coop.tecso.hcd.entities.Atencion;
 import coop.tecso.hcd.entities.AtencionValor;
 import coop.tecso.hcd.persistence.DatabaseHelper;
@@ -62,7 +63,7 @@ import coop.tecso.udaa.domain.seguridad.UsuarioApm;
 @SuppressWarnings("ResultOfMethodCallIgnored")
 public final class UDAACoreServiceImpl implements UDAACoreService {
 
-	private RuntimeExceptionDao<TablaVersion, Integer> tablaVersionDAO;
+	private TablaVersionDAO tablaVersionDAO;
 
 	private Context context;
 	private Map<String,Integer> tablesToSynchronize;
@@ -108,7 +109,7 @@ public final class UDAACoreServiceImpl implements UDAACoreService {
 		// Register an adapter to manage the date types as long values 
 		this.builder.registerTypeAdapter(Date.class, (JsonDeserializer<Date>) (json, typeOfT, context1) -> new Date(json.getAsJsonPrimitive().getAsLong()));
 
-		this.tablaVersionDAO = database.getRuntimeExceptionDao(TablaVersion.class);
+		this.tablaVersionDAO = new TablaVersionDAO(context);
 
 		Log.d(LOG_TAG, "2 Bindeando servicio...");
 		Intent intent = new Intent("coop.tecso.IUDAAService");
@@ -284,13 +285,6 @@ public final class UDAACoreServiceImpl implements UDAACoreService {
 	private <T extends AbstractEntity> void genericSync(Class<T> clazz, String tableName, Map<String, Object> params, String wsName) throws Exception {
 		Log.i(LOG_TAG, "genericSync: enter");
 		boolean permiteActParcial = false;
-		String jsonResponse = "";
-		if (tableName.equals("hcd_reglaCondicion") || tableName.equals("hcd_regla")){
-			params.put("tableName", tableName);
-			params.put("version", 0);
-			jsonResponse = secureWebServiceInvoke(wsName, params);
-		}
-
 		try {
 			// Verifico si debo sincronizar entidad
 			if (isSynchronized(tableName)) {
@@ -299,7 +293,7 @@ public final class UDAACoreServiceImpl implements UDAACoreService {
 
 
 			HCDigitalApplication appState = (HCDigitalApplication) context.getApplicationContext();
-			TablaVersion tv = appState.getHCDigitalDAO().getTablaVersionByTableName(tableName);
+			TablaVersion tv = tablaVersionDAO.getTablaVersionByTableName(tableName);
 			permiteActParcial = appState.getHCDigitalDAO().getAplicacionTabla(tableName);
 			
 			int version = 0;
@@ -312,8 +306,6 @@ public final class UDAACoreServiceImpl implements UDAACoreService {
 
 			params.put("tableName", tableName);
 			params.put("version", version);
-
-
 			
 			synchronize(clazz, params, wsName, version, serverVersion, tv, permiteActParcial, tableName);
 		}
@@ -485,11 +477,12 @@ public final class UDAACoreServiceImpl implements UDAACoreService {
 	}
 
 	private Map<String, Integer> getLocalTablesVersionIndex(){
-		RuntimeExceptionDao<TablaVersion, Integer> entityDAO = database.getRuntimeExceptionDao(TablaVersion.class);
+
+		TablaVersionDAO tablaVersionDAO = new TablaVersionDAO(context);
 
 		Map<String, Integer> localTables = new HashMap<>();
 
-		for (TablaVersion tv: entityDAO.queryForAll()) {
+		for (TablaVersion tv: tablaVersionDAO.findAllActive()) {
 			localTables.put(tv.getTabla().toLowerCase(), tv.getLastVersion());
 		}
 
@@ -520,7 +513,7 @@ public final class UDAACoreServiceImpl implements UDAACoreService {
 
 		Gson gson = buildGson();
 
-		TablaVersion atencionesTablaVersion = this.getAtencionesTablaVersion();
+		TablaVersion atencionesTablaVersion = tablaVersionDAO.getAtencionesTablaVersion();
 		int version = atencionesTablaVersion.getLastVersion();
 
 		// Se accede al web service para traer Atenciones segun su version y filtrando por dispositivo movil
@@ -598,10 +591,7 @@ public final class UDAACoreServiceImpl implements UDAACoreService {
 		return builder.create();
 	}
 
-	private TablaVersion getAtencionesTablaVersion() throws SQLException {
-		PreparedQuery<TablaVersion> preparedQuery = tablaVersionDAO.queryBuilder().where().eq("tabla", "hcd_atencion").prepare();
-		return tablaVersionDAO.queryForFirst(preparedQuery);
-	}
+
 
 	private String fetchAtencionByDevice(int deviceID, int version) {
 		// Load POST Parameters

@@ -522,25 +522,7 @@ public final class HCDigitalDAO {
 	}	
 	
 
-	public TablaVersion getTablaVersionByTableName(String tableName) throws SQLException {
-		Log.i(TAG, "getTablaVersionByTableName: enter");
-		RuntimeExceptionDao<TablaVersion, Integer> tablaVersionDAO;
-		tablaVersionDAO = databaseHelper.getRuntimeExceptionDao(TablaVersion.class);
 
-		TablaVersion tablaVersion = null;
-		QueryBuilder<TablaVersion, Integer> queryBuilder = tablaVersionDAO.queryBuilder();
-		try {
-			queryBuilder.where().rawComparison(
-					"tabla", "COLLATE NOCASE LIKE", tableName).and().eq("deleted", false);
-			Log.d(TAG, queryBuilder.prepareStatementString());
-			// Return the first element
-			tablaVersion = queryBuilder.query().get(0);
-		} catch (SQLException e) {
-			Log.e(TAG, "getTablaVersionByTableName: ***ERROR***", e);
-		}
-		Log.i(TAG, "getTablaVersionByTableName: exit");
-		return tablaVersion;
-	}
 	
 	/**
 	 * Obtiene la lista de AplicacionParametro activas
