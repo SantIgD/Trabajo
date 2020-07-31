@@ -15,6 +15,7 @@ import java.sql.SQLException;
 
 import coop.tecso.hcd.R;
 import coop.tecso.hcd.dao.TablaVersionDAO;
+import coop.tecso.hcd.entities.Atencion;
 import coop.tecso.hcd.helpers.GUIHelper;
 import coop.tecso.hcd.persistence.DatabaseConfigUtil;
 import coop.tecso.hcd.persistence.DatabaseHelper;
@@ -88,6 +89,29 @@ public class ProblemSolverActivity extends Activity {
 
 
     private void confirmAndDeleteAtenciones(){
+        int title = R.string.confirm_title;
+        int mensaje = R.string.delete_atenciones_msg;
+
+        AlertDialog alertDialog = GUIHelper.createAlertDialog(this,title,mensaje, this::deleteAtenciones,null);
+        alertDialog.show();
+
+    }
+
+    private void deleteAtenciones(){
+        try{
+            for (Class<?> clazz: DatabaseConfigUtil.PERSISTENT_CLASSES) {
+                if(!clazz.equals(Atencion.class)) {
+                    continue;
+                }
+                DatabaseHelper databaseHelper = OpenHelperManager.getHelper(this, DatabaseHelper.class);
+                RuntimeExceptionDao<AbstractEntity, Integer> entidadBusquedaDAO = databaseHelper.getRuntimeExceptionDao((Class<AbstractEntity>) clazz);
+
+                DeleteBuilder<AbstractEntity, Integer> deleteBuilder = entidadBusquedaDAO.deleteBuilder();
+                entidadBusquedaDAO.delete(deleteBuilder.prepare());
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
     }
 

@@ -84,13 +84,13 @@ public final class GUIHelper {
 		builder.setMessage(mensaje);
 		builder.setPositiveButton(R.string.yes,  (dialog, id) -> {
 			if(yesFunction != null) {
-				yesFunction.function();
-			}
+					yesFunction.function();
+				}
 		});
 
 		builder.setNegativeButton(R.string.no,  (dialog, id) -> {
 			if(noFunction != null) {
-				noFunction.function();
+					noFunction.function();
 			}
 		});
 		return builder.create();
