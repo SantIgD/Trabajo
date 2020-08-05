@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\res\\values-v11\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "116",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "194"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "132"
+                    }
+                }
+            ]
+        }
+    ]
+}

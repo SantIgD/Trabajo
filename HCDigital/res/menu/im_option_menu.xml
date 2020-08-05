@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/guardarIM" 
+        android:title="@string/guardarIM" 
+        android:icon="@drawable/ic_menu_save"/>
+    <item
+        android:id="@+id/anularIM"
+        android:icon="@drawable/ic_lock_lock"
+        android:title="@string/anular"/>
+    <item android:id="@+id/cerrarSinActoIM" 
+        android:title="@string/cerrarSinActoMedico"
+        android:icon="@drawable/ic_lock_lock" />
+    <item
+        android:id="@+id/transferIM"
+        android:icon="@drawable/ic_menu_bt"
+        android:title="@string/transfer" />
+    
+</menu>

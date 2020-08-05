@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/registrarIM"
+        android:icon="@drawable/ic_menu_add"
+        android:title="@string/registrar_IM"/>
+	<item 
+		android:id="@string/export" 
+		android:title="@string/export" 
+		android:icon="@android:drawable/ic_menu_preferences"
+		android:textColor="@color/label_text_color"
+	/>
+	<item
+		android:id="@string/synchronize"
+		android:title="@string/synchronize"
+		android:icon="@android:drawable/ic_menu_preferences"
+		android:textColor="@color/label_text_color"
+		/>
+	<item
+		android:id="@string/refresh_list"
+		android:title="@string/refresh_list"
+		android:icon="@drawable/ic_menu_refresh" />
+	<item
+		android:id="@+id/solveProblems"
+		android:icon="@android:drawable/ic_menu_preferences"
+		android:title="@string/problem_solver"/>
+	<item
+		android:id="@+id/wipeSyncData"
+		android:icon="@android:drawable/ic_menu_preferences"
+		android:title="@string/wype_sync_data"/>
+
+	<item
+        android:id="@+id/closeApplication"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/close_application"/>
+
+</menu>

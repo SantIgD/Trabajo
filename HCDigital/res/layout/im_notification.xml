@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="52dip"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="4dp" 
+    android:paddingTop="4dp"
+    android:background="@color/notification_area_background_color" >
+    
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+		<ImageView
+	      android:id="@+id/notificacion_icon"
+	      android:layout_width="16dip"
+	      android:layout_height="16dip"
+	      android:src="@drawable/ic_emergency_default"/>
+
+	 </LinearLayout>
+
+    <TextView
+      android:id="@+id/notificacion_briefDescription"
+      android:layout_width="52dip"
+      android:layout_height="wrap_content"
+      android:textColor="@color/white"
+      android:gravity="center_horizontal"
+      android:textSize="12dp"
+      android:maxLines="2"
+      android:text="Alerta Médica Temp"
+      />
+  
+</LinearLayout>

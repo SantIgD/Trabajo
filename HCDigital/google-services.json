@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "768691457828",
+    "firebase_url": "https://hcdigital-7a2bc.firebaseio.com",
+    "project_id": "hcdigital-7a2bc",
+    "storage_bucket": "hcdigital-7a2bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768691457828:android:d982d4ca8a95e8f4",
+        "android_client_info": {
+          "package_name": "coop.tecso.hcd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768691457828-8osrebmjcad16a5bn8agnqfv9hqn1q7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn1lxv15T3rUcR0iMah2XHUq5JB8_DGtI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

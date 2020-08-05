@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ru\\values-ru.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "321",
+                        "endColumns": "100",
+                        "endOffsets": "417"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ru\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "215",
+                        "endOffsets": "500"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "215",
+                        "endOffsets": "316"
+                    }
+                }
+            ]
+        }
+    ]
+}

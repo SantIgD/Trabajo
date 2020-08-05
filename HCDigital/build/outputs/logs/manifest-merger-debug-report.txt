@@ -1,0 +1,566 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:2:1-148:12
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:2:1-148:12
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:2:1-148:12
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:2:1-148:12
+MERGED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\939420d0ad7da22938b5e55c049e711f\firebase-core-10.2.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\2fc3831c84eef1e861721e4a2b7d25a1\play-services-tasks-10.2.1\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\ffa7850436940c8827b367a9bf7cc524\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\ce8df1b86e5ccafd57ace2e7c1c90fb2\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a05d1185fe797e533571867f2523ac7c\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\b599e5a44b9cb4a21fb89bd73c475dbb\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4375b4a85ff0e9dfb108848b8d9686e4\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\c491ed4e06fbddfe4a8bb59f13ae8b2d\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\501f3751fdc4406cd2162e033eb43447\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\11cef7be4bb70b9fd1d597cacc817d16\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\11a19caa1d08c8dd010a0818dda6af8f\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\ee309ef22e37c7540e011c7fe67254d0\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\7abc2296c0844a783bcaf9eec0e4785f\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\d6f3cfe44b6e540c439b0aa2542331ed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\65cea0a0733fd232fd76685f0e420182\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3395a137faa3b9205e2f50fbb242a6aa\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\2024ee24d470112eba5ab74b29665c0f\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\6eb78ffaca96324509e5383d20ad3872\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\de6f4818d4c9543f5632f9a5eb5f125c\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\428524f8aa3737ddf711cf91954b9926\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\1b231c14d4a1d84de8806a8b4f73074d\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\e36d3217ff8acc57351c1f756928e6e3\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\7a1886a720cb54e40cd902fc56f0d28f\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\89c9ccd9e3361e8a59085ce1226720e8\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\16a321cd0f8a8bea94a2b31ab2dc6004\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\e50206d8b26cf3f986f3471119a52293\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\aeb098c186dae0aa06700d924351fc17\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:2:1-148:12
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:2:1-148:12
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:2:1-148:12
+	package
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:4:5-29
+		INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+		INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:6:5-37
+		INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+		INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:5:5-28
+		INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+		INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:15:5-79
+MERGED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:19:5-74
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:19:22-71
+uses-permission#android.permission.CAMERA
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:22:22-62
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:25:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:26:5-76
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:26:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:27:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:28:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:31:5-69
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:31:22-66
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:33:5-68
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:35:5-77
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:35:22-74
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:37:5-82
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:37:22-80
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:39:5-40:47
+	tools:ignore
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:40:9-44
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:39:22-70
+uses-feature#android.hardware.microphone
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:43:5-64
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:43:19-61
+uses-feature#android.hardware.bluetooth
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:44:5-63
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:44:19-60
+uses-feature#android.hardware.camera
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:45:5-47:35
+	android:required
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:47:9-32
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:46:9-47
+uses-feature#android.hardware.telephony
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:48:5-50:36
+	android:required
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:50:9-33
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:49:9-50
+application
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:52:5-146:19
+MERGED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-18:19
+MERGED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-18:19
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\939420d0ad7da22938b5e55c049e711f\firebase-core-10.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\939420d0ad7da22938b5e55c049e711f\firebase-core-10.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\2fc3831c84eef1e861721e4a2b7d25a1\play-services-tasks-10.2.1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\2fc3831c84eef1e861721e4a2b7d25a1\play-services-tasks-10.2.1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3395a137faa3b9205e2f50fbb242a6aa\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3395a137faa3b9205e2f50fbb242a6aa\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\2024ee24d470112eba5ab74b29665c0f\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\2024ee24d470112eba5ab74b29665c0f\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3395a137faa3b9205e2f50fbb242a6aa\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:58:9-41
+	tools:ignore
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:60:9-48
+	android:configChanges
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:54:9-70
+	android:largeHeap
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:56:9-33
+	android:icon
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:55:9-42
+		REJECTED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-38
+	android:allowBackup
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:61:9-36
+	android:theme
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:57:9-40
+	tools:replace
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:59:9-37
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:53:9-71
+uses-library#org.apache.http.legacy
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:63:9-88
+	android:required
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:63:61-85
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:63:23-60
+activity#coop.tecso.hcd.activities.MainActivity
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:66:9-78:20
+	android:label
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:70:13-45
+	android:launchMode
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:71:13-43
+	android:exported
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:72:13-36
+	android:configChanges
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:69:13-74
+	android:alwaysRetainTaskState
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:67:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:74:13-77:29
+action#android.intent.action.MAIN
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:75:17-69
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:75:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:76:17-77
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:76:27-74
+activity#coop.tecso.hcd.activities.MainHCActivity
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:79:9-84:48
+	android:label
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:84:13-45
+	android:windowSoftInputMode
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:82:13-55
+	android:configChanges
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:83:13-74
+	android:alwaysRetainTaskState
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:80:13-54
+activity#coop.tecso.hcd.activities.TabHostActivity
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:85:9-90:48
+	android:label
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:90:13-45
+	android:windowSoftInputMode
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:88:10-52
+	android:configChanges
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:89:13-74
+	android:alwaysRetainTaskState
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:87:13-49
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:86:13-55
+activity#coop.tecso.hcd.activities.RegisterActivity
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:91:9-95:48
+	android:label
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:95:13-45
+	android:configChanges
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:94:13-74
+	android:alwaysRetainTaskState
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:92:13-49
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:93:13-56
+activity#coop.tecso.hcd.activities.FirmaActivity
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:96:9-100:48
+	android:label
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:100:13-45
+	android:configChanges
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:99:13-74
+	android:alwaysRetainTaskState
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:98:13-49
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:97:13-53
+activity#coop.tecso.hcd.activities.PdfRendererActivity
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:101:9-106:48
+	android:screenOrientation
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:105:13-50
+	android:label
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:106:13-45
+	android:configChanges
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:104:13-74
+	android:alwaysRetainTaskState
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:103:13-49
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:102:13-59
+activity#coop.tecso.hcd.activities.SignActivity
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:107:9-112:46
+	android:label
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:111:13-45
+	android:launchMode
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:112:13-43
+	android:configChanges
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:110:13-74
+	android:alwaysRetainTaskState
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:109:13-49
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:108:13-52
+activity#coop.tecso.hcd.activities.DispatcherActivity
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:113:9-117:48
+	android:label
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:117:13-45
+	android:configChanges
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:116:13-74
+	android:alwaysRetainTaskState
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:114:13-58
+activity#coop.tecso.hcd.activities.ProblemSolverActivity
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:118:9-70
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:118:19-67
+service#coop.tecso.hcd.services.SyncAtencionService
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:120:9-123:19
+	android:enabled
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:122:13-35
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:121:13-57
+service#coop.tecso.hcd.services.FirebaseMSGService
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:124:3-128:19
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:124:12-55
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:125:13-127:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:126:17-77
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:126:25-75
+service#coop.tecso.hcd.services.FirebaseIDService
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:130:9-134:19
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:130:18-60
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:131:13-133:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:132:17-79
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:132:25-77
+provider#android.support.v4.content.FileProvider
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:136:9-144:20
+	android:grantUriPermissions
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:139:13-47
+	android:authorities
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:138:13-65
+	android:exported
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:137:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:141:13-143:53
+	android:resource
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:143:17-50
+	android:name
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:142:17-67
+uses-sdk
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+MERGED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\939420d0ad7da22938b5e55c049e711f\firebase-core-10.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\939420d0ad7da22938b5e55c049e711f\firebase-core-10.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\2fc3831c84eef1e861721e4a2b7d25a1\play-services-tasks-10.2.1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\2fc3831c84eef1e861721e4a2b7d25a1\play-services-tasks-10.2.1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\ffa7850436940c8827b367a9bf7cc524\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\ffa7850436940c8827b367a9bf7cc524\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\ce8df1b86e5ccafd57ace2e7c1c90fb2\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\ce8df1b86e5ccafd57ace2e7c1c90fb2\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a05d1185fe797e533571867f2523ac7c\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a05d1185fe797e533571867f2523ac7c\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\b599e5a44b9cb4a21fb89bd73c475dbb\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\b599e5a44b9cb4a21fb89bd73c475dbb\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4375b4a85ff0e9dfb108848b8d9686e4\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4375b4a85ff0e9dfb108848b8d9686e4\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\c491ed4e06fbddfe4a8bb59f13ae8b2d\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\c491ed4e06fbddfe4a8bb59f13ae8b2d\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\501f3751fdc4406cd2162e033eb43447\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\501f3751fdc4406cd2162e033eb43447\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\11cef7be4bb70b9fd1d597cacc817d16\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\11cef7be4bb70b9fd1d597cacc817d16\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\11a19caa1d08c8dd010a0818dda6af8f\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\11a19caa1d08c8dd010a0818dda6af8f\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\ee309ef22e37c7540e011c7fe67254d0\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\ee309ef22e37c7540e011c7fe67254d0\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\7abc2296c0844a783bcaf9eec0e4785f\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\7abc2296c0844a783bcaf9eec0e4785f\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\d6f3cfe44b6e540c439b0aa2542331ed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\d6f3cfe44b6e540c439b0aa2542331ed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\65cea0a0733fd232fd76685f0e420182\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\65cea0a0733fd232fd76685f0e420182\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3395a137faa3b9205e2f50fbb242a6aa\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3395a137faa3b9205e2f50fbb242a6aa\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\2024ee24d470112eba5ab74b29665c0f\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\2024ee24d470112eba5ab74b29665c0f\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\6eb78ffaca96324509e5383d20ad3872\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\6eb78ffaca96324509e5383d20ad3872\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\de6f4818d4c9543f5632f9a5eb5f125c\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\de6f4818d4c9543f5632f9a5eb5f125c\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\428524f8aa3737ddf711cf91954b9926\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\428524f8aa3737ddf711cf91954b9926\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\1b231c14d4a1d84de8806a8b4f73074d\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\1b231c14d4a1d84de8806a8b4f73074d\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\e36d3217ff8acc57351c1f756928e6e3\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\e36d3217ff8acc57351c1f756928e6e3\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\7a1886a720cb54e40cd902fc56f0d28f\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\7a1886a720cb54e40cd902fc56f0d28f\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\89c9ccd9e3361e8a59085ce1226720e8\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\89c9ccd9e3361e8a59085ce1226720e8\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\16a321cd0f8a8bea94a2b31ab2dc6004\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\16a321cd0f8a8bea94a2b31ab2dc6004\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\e50206d8b26cf3f986f3471119a52293\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\e50206d8b26cf3f986f3471119a52293\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\aeb098c186dae0aa06700d924351fc17\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\aeb098c186dae0aa06700d924351fc17\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+		INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+		ADDED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+		INJECTED from D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from [:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-72
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:23:18-87
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\f239c880c492db5c2b673e9e6481bd53\firebase-analytics-impl-10.2.1\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:24:17-71
+permission#coop.tecso.hcd.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:26:22-76
+uses-permission#coop.tecso.hcd.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:coop.tecso.hcd
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:33:27-58
+category#coop.tecso.hcd
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:20:20-65

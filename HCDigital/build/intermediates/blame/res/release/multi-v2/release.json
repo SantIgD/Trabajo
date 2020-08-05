@@ -1,0 +1,3405 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-sl_values-sl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "304",
+                        "endColumns": "100",
+                        "endOffsets": "400"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-sl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "198",
+                        "endOffsets": "483"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "198",
+                        "endOffsets": "299"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-iw_values-iw.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-iw\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "176",
+                        "endOffsets": "461"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "176",
+                        "endOffsets": "277"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "282",
+                        "endColumns": "100",
+                        "endOffsets": "378"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\ce8df1b86e5ccafd57ace2e7c1c90fb2\\support-media-compat-28.0.0\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "596,764,1053,1349",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "759,922,1216,1511"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,14,18,22,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,927,1221,1516,1688",
+                        "endLines": "2,3,4,5,6,7,14,18,24,29",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,1048,1344,1683,2021"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "286",
+                        "endColumns": "100",
+                        "endOffsets": "382"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "180",
+                        "endOffsets": "465"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "180",
+                        "endOffsets": "281"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-fi_values-fi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "314",
+                        "endColumns": "100",
+                        "endOffsets": "410"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-fi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "208",
+                        "endOffsets": "493"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "208",
+                        "endOffsets": "309"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ta_values-ta.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "224",
+                        "endOffsets": "509"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "224",
+                        "endOffsets": "325"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "330",
+                        "endColumns": "100",
+                        "endOffsets": "426"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-hy_values-hy.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-hy\\values-hy.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "315",
+                        "endColumns": "100",
+                        "endOffsets": "411"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-hy\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "209",
+                        "endOffsets": "494"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "209",
+                        "endOffsets": "310"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-et_values-et.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-et\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "198",
+                        "endOffsets": "483"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "198",
+                        "endOffsets": "299"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-et\\values-et.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "304",
+                        "endColumns": "100",
+                        "endOffsets": "400"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-as_values-as.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-as\\values-as.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-en-rGB_values-en-rGB.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-en-rGB\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "196",
+                        "endOffsets": "485"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "196",
+                        "endOffsets": "297"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "302",
+                        "endColumns": "100",
+                        "endOffsets": "398"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-uz_values-uz.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-uz\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "208",
+                        "endOffsets": "493"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "208",
+                        "endOffsets": "309"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "314",
+                        "endColumns": "100",
+                        "endOffsets": "410"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "294",
+                        "endColumns": "100",
+                        "endOffsets": "390"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "188",
+                        "endOffsets": "473"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "188",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "329",
+                        "endColumns": "100",
+                        "endOffsets": "425"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "223",
+                        "endOffsets": "508"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "223",
+                        "endOffsets": "324"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-tl_values-tl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-tl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "204",
+                        "endOffsets": "489"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "204",
+                        "endOffsets": "305"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "100",
+                        "endOffsets": "406"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-pt-rPT_values-pt-rPT.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-pt-rPT\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "203",
+                        "endOffsets": "492"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "203",
+                        "endOffsets": "304"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "309",
+                        "endColumns": "100",
+                        "endOffsets": "405"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-bs_values-bs.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-bs\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "199",
+                        "endOffsets": "484"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "199",
+                        "endOffsets": "300"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "305",
+                        "endColumns": "100",
+                        "endOffsets": "401"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-th_values-th.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-th\\values-th.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "293",
+                        "endColumns": "100",
+                        "endOffsets": "389"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-th\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "187",
+                        "endOffsets": "472"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "187",
+                        "endOffsets": "288"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "321",
+                        "endColumns": "100",
+                        "endOffsets": "417"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ru\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "215",
+                        "endOffsets": "500"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "215",
+                        "endOffsets": "316"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "161",
+                        "endOffsets": "450"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "161",
+                        "endOffsets": "262"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "267",
+                        "endColumns": "100",
+                        "endOffsets": "363"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-pt-rBR_values-pt-rBR.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "309",
+                        "endColumns": "100",
+                        "endOffsets": "405"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "203",
+                        "endOffsets": "492"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "203",
+                        "endOffsets": "304"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ko\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "179",
+                        "endOffsets": "464"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "179",
+                        "endOffsets": "280"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "285",
+                        "endColumns": "100",
+                        "endOffsets": "381"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-en-rAU_values-en-rAU.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-af_values-af.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-af\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "201",
+                        "endOffsets": "486"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "201",
+                        "endOffsets": "302"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-af\\values-af.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "307",
+                        "endColumns": "100",
+                        "endOffsets": "403"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-lo_values-lo.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-lo\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "190",
+                        "endOffsets": "475"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "190",
+                        "endOffsets": "291"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-lo\\values-lo.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "296",
+                        "endColumns": "100",
+                        "endOffsets": "392"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-hr_values-hr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-hr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "190",
+                        "endOffsets": "475"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "190",
+                        "endOffsets": "291"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-hr\\values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "296",
+                        "endColumns": "100",
+                        "endOffsets": "392"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-fr-rCA_values-fr-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "325",
+                        "endColumns": "100",
+                        "endOffsets": "421"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-fr-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "219",
+                        "endOffsets": "508"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "219",
+                        "endOffsets": "320"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-or_values-or.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-or\\values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ca_values-ca.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "303",
+                        "endColumns": "100",
+                        "endOffsets": "399"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ca\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "197",
+                        "endOffsets": "482"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "197",
+                        "endOffsets": "298"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-zh-rHK_values-zh-rHK.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "272",
+                        "endColumns": "100",
+                        "endOffsets": "368"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "166",
+                        "endOffsets": "455"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "166",
+                        "endOffsets": "267"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-es-rUS_values-es-rUS.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-es-rUS\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "204",
+                        "endOffsets": "493"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "204",
+                        "endOffsets": "305"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "100",
+                        "endOffsets": "406"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ms_values-ms.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "204",
+                        "endOffsets": "489"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "204",
+                        "endOffsets": "305"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "100",
+                        "endOffsets": "406"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-is_values-is.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "293",
+                        "endColumns": "100",
+                        "endOffsets": "389"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "187",
+                        "endOffsets": "472"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "187",
+                        "endOffsets": "288"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-gu_values-gu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-gu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "205",
+                        "endOffsets": "490"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "205",
+                        "endOffsets": "306"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-gu\\values-gu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "311",
+                        "endColumns": "100",
+                        "endOffsets": "407"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-lv_values-lv.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-lv\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "224",
+                        "endOffsets": "509"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "224",
+                        "endOffsets": "325"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "330",
+                        "endColumns": "100",
+                        "endOffsets": "426"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-uk_values-uk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "100",
+                        "endOffsets": "406"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-uk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "204",
+                        "endOffsets": "489"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "204",
+                        "endOffsets": "305"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-zh-rCN\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "289",
+                        "endColumns": "157",
+                        "endOffsets": "446"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "157",
+                        "endOffsets": "258"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "263",
+                        "endColumns": "100",
+                        "endOffsets": "359"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-kn_values-kn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-kn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "204",
+                        "endOffsets": "489"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "204",
+                        "endOffsets": "305"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "100",
+                        "endOffsets": "406"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ml_values-ml.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ml\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "218",
+                        "endOffsets": "503"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "218",
+                        "endOffsets": "319"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "324",
+                        "endColumns": "100",
+                        "endOffsets": "420"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ne_values-ne.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ne\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "222",
+                        "endOffsets": "507"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "222",
+                        "endOffsets": "323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endColumns": "100",
+                        "endOffsets": "424"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-pa_values-pa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-pa\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "209",
+                        "endOffsets": "494"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "209",
+                        "endOffsets": "310"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "315",
+                        "endColumns": "100",
+                        "endOffsets": "411"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-da_values-da.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-da\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "185",
+                        "endOffsets": "470"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "185",
+                        "endOffsets": "286"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-da\\values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "291",
+                        "endColumns": "100",
+                        "endOffsets": "387"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-hi_values-hi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-hi\\values-hi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "311",
+                        "endColumns": "100",
+                        "endOffsets": "407"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-hi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "205",
+                        "endOffsets": "490"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "205",
+                        "endOffsets": "306"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-sk_values-sk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-sk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "197",
+                        "endOffsets": "482"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "197",
+                        "endOffsets": "298"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "303",
+                        "endColumns": "100",
+                        "endOffsets": "399"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-sw_values-sw.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "100",
+                        "endOffsets": "406"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-sw\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "204",
+                        "endOffsets": "489"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "204",
+                        "endOffsets": "305"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-hu_values-hu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "341",
+                        "endColumns": "100",
+                        "endOffsets": "437"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-hu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "235",
+                        "endOffsets": "520"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "235",
+                        "endOffsets": "336"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-sr_values-sr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-sr\\values-sr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "294",
+                        "endColumns": "100",
+                        "endOffsets": "390"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-sr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "188",
+                        "endOffsets": "473"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "188",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-in_values-in.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-in\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "190",
+                        "endOffsets": "475"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "190",
+                        "endOffsets": "291"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "296",
+                        "endColumns": "100",
+                        "endOffsets": "392"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-pt_values-pt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-vi_values-vi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "300",
+                        "endColumns": "100",
+                        "endOffsets": "396"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "194",
+                        "endOffsets": "479"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "194",
+                        "endOffsets": "295"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-en-rXC_values-en-rXC.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "202",
+                        "endOffsets": "253"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-eu_values-eu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-eu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "200",
+                        "endOffsets": "485"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "200",
+                        "endOffsets": "301"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "306",
+                        "endColumns": "100",
+                        "endOffsets": "402"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-nl_values-nl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-nl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "201",
+                        "endOffsets": "486"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "201",
+                        "endOffsets": "302"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "307",
+                        "endColumns": "100",
+                        "endOffsets": "403"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-my_values-my.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-my\\values-my.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "318",
+                        "endColumns": "100",
+                        "endOffsets": "414"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-my\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "212",
+                        "endOffsets": "497"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "212",
+                        "endOffsets": "313"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ur_values-ur.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "316",
+                        "endColumns": "100",
+                        "endOffsets": "412"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ur\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "210",
+                        "endOffsets": "495"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "210",
+                        "endOffsets": "311"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "309",
+                        "endColumns": "100",
+                        "endOffsets": "405"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-de\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "203",
+                        "endOffsets": "488"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "203",
+                        "endOffsets": "304"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-v24_values-v24.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\ce8df1b86e5ccafd57ace2e7c1c90fb2\\support-media-compat-28.0.0\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-fa_values-fa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-fa\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "213",
+                        "endOffsets": "498"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "213",
+                        "endOffsets": "314"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "319",
+                        "endColumns": "100",
+                        "endOffsets": "415"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-tr_values-tr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "311",
+                        "endColumns": "100",
+                        "endOffsets": "407"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-tr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "205",
+                        "endOffsets": "490"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "205",
+                        "endOffsets": "306"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-bg_values-bg.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-bg\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "196",
+                        "endOffsets": "481"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "196",
+                        "endOffsets": "297"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "302",
+                        "endColumns": "100",
+                        "endOffsets": "398"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-en-rIN_values-en-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-kk_values-kk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "222",
+                        "endOffsets": "507"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "222",
+                        "endOffsets": "323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endColumns": "100",
+                        "endOffsets": "424"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-sv_values-sv.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "312",
+                        "endColumns": "100",
+                        "endOffsets": "408"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-sv\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "206",
+                        "endOffsets": "491"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "206",
+                        "endOffsets": "307"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-be_values-be.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "100",
+                        "endOffsets": "406"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-be\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "204",
+                        "endOffsets": "489"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "204",
+                        "endOffsets": "305"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-si_values-si.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "303",
+                        "endColumns": "100",
+                        "endOffsets": "399"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-si\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "197",
+                        "endOffsets": "482"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "197",
+                        "endOffsets": "298"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-lt_values-lt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "323",
+                        "endColumns": "100",
+                        "endOffsets": "419"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-lt\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "217",
+                        "endOffsets": "502"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "217",
+                        "endOffsets": "318"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-en-rCA_values-en-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-am_values-am.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "296",
+                        "endColumns": "100",
+                        "endOffsets": "392"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-am\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "190",
+                        "endOffsets": "475"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "190",
+                        "endOffsets": "291"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-zu_values-zu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-zu\\values-zu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "296",
+                        "endColumns": "100",
+                        "endOffsets": "392"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-zu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "190",
+                        "endOffsets": "475"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "190",
+                        "endOffsets": "291"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ar_values-ar.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "189",
+                        "endOffsets": "474"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "189",
+                        "endOffsets": "290"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "295",
+                        "endColumns": "100",
+                        "endOffsets": "391"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "165,166,175,7,169,15,168,13,28,4,3,24,91,90,93,92,89,111,110,8,133,31,17,12,64,63,79,80,81,78,77,32,115,114,125,124,71,174,50,19,9,53,86,54,173,56,55,107,135,14,144,143,142,141,23,59,60,130,131,52,139,145,147,66,68,106,129,136,172,171,27,36,72,39,48,96,97,150,160,159,151,163,162,152,74,149,155,67,73,10,85,84,120,22,65,146,177,18,105,158,69,70,33,16,11,62,61,49,40,102,44,45,43,126,176,134,140,37,35,34,83,82,116,20,170,38,98,101,99,51,100,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,1,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "9634,9710,10481,200,9949,548,9858,464,1110,107,59,947,5350,5284,5481,5413,5213,6556,6454,244,7701,1235,632,422,3439,3351,4630,4698,4756,4561,4465,1307,6766,6668,7203,7138,4126,10418,2337,719,289,2599,5090,2702,10349,2871,2807,6343,7829,507,8434,8343,8221,8103,910,2998,3064,7416,7553,2523,8005,8475,8593,3646,3830,6296,7363,7901,10227,10150,1026,1572,4192,1774,2199,5580,5666,8766,9355,9291,8869,9501,9426,8992,4344,8671,9092,3728,4252,334,5022,4971,6999,875,3566,8557,10573,675,6217,9233,3927,4004,1372,589,380,3276,3189,2268,1865,6112,2024,2081,1977,7277,10522,7773,8050,1639,1500,1427,4890,4826,6834,790,10060,1700,5783,6026,5854,2399,5950,839",
+                        "endColumns": "74,140,39,42,109,39,89,41,93,61,46,42,61,64,75,66,69,73,100,43,70,70,41,40,125,86,66,56,68,67,94,63,66,96,72,63,64,61,60,69,43,101,93,103,67,97,62,65,70,39,39,89,120,116,38,64,123,135,140,74,43,79,71,80,95,45,51,75,120,75,82,65,58,89,67,84,115,101,63,62,121,123,73,86,90,93,127,100,90,44,66,49,50,33,78,34,51,42,77,56,75,120,53,41,40,73,85,67,71,73,55,73,45,51,49,54,51,59,70,71,79,62,63,47,88,72,69,84,94,122,74,34",
+                        "endOffsets": "9704,9846,10516,238,10054,583,9943,501,1199,164,101,988,5407,5344,5552,5475,5278,6625,6550,283,7767,1301,669,458,3560,3433,4692,4750,4820,4624,4555,1366,6828,6760,7271,7197,4186,10475,2393,784,328,2696,5179,2801,10412,2964,2865,6404,7895,542,8469,8428,8337,8215,944,3058,3183,7547,7689,2593,8044,8550,8659,3722,3921,6337,7410,7972,10343,10221,1104,1633,4246,1859,2262,5660,5777,8863,9414,9349,8986,9620,9495,9074,4430,8760,9215,3824,4338,374,5084,5016,7045,904,3640,8586,10620,713,6290,9285,3998,4120,1421,626,416,3345,3270,2331,1932,6181,2075,2150,2018,7324,10567,7823,8097,1694,1566,1494,4965,4884,6893,833,10144,1768,5848,6106,5944,2517,6020,869"
+                    },
+                    "to": {
+                        "startLines": "62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,100,101,102,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,135,136,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3693,3768,3909,3949,3992,4102,4142,4232,4274,4368,4430,4477,4523,4585,4650,4726,4793,4863,4937,5038,5082,5153,5224,5266,5307,5433,5520,5587,5644,5713,5781,5876,5940,6007,6104,6176,6239,6471,6533,6594,6808,6852,6954,7048,7152,7220,7318,7381,7447,7518,7558,7598,7688,7809,7926,7965,8030,8154,8290,8431,8506,8550,8630,8701,8782,9496,9542,9641,9717,9838,9914,9997,10063,10122,10212,10280,10365,10481,10583,10647,10710,10832,10956,11030,11117,11208,11302,11430,11531,11622,11667,11734,11784,11835,11869,11948,11982,12034,12077,12231,12288,12364,12485,12539,12581,12622,12696,12782,12850,12922,12996,13052,13126,13172,13224,13274,13400,13452,13512,13583,13655,13735,13798,13862,13910,13999,14072,14142,14227,14322,14445,14520",
+                        "endColumns": "74,140,39,42,109,39,89,41,93,61,46,45,61,64,75,66,69,73,100,43,70,70,41,40,125,86,66,56,68,67,94,63,66,96,71,62,64,61,60,69,43,101,93,103,67,97,62,65,70,39,39,89,120,116,38,64,123,135,140,74,43,79,70,80,95,45,51,75,120,75,82,65,58,89,67,84,115,101,63,62,121,123,73,86,90,93,127,100,90,44,66,49,50,33,78,33,51,42,77,56,75,120,53,41,40,73,85,67,71,73,55,73,45,51,49,54,51,59,70,71,79,62,63,47,88,72,69,84,94,122,74,34",
+                        "endOffsets": "3763,3904,3944,3987,4097,4137,4227,4269,4363,4425,4472,4518,4580,4645,4721,4788,4858,4932,5033,5077,5148,5219,5261,5302,5428,5515,5582,5639,5708,5776,5871,5935,6002,6099,6171,6234,6299,6528,6589,6659,6847,6949,7043,7147,7215,7313,7376,7442,7513,7553,7593,7683,7804,7921,7960,8025,8149,8285,8426,8501,8545,8625,8696,8777,8873,9537,9589,9712,9833,9909,9992,10058,10117,10207,10275,10360,10476,10578,10642,10705,10827,10951,11025,11112,11203,11297,11425,11526,11617,11662,11729,11779,11830,11864,11943,11977,12029,12072,12150,12283,12359,12480,12534,12576,12617,12691,12777,12845,12917,12991,13047,13121,13167,13219,13269,13324,13447,13507,13578,13650,13730,13793,13857,13905,13994,14067,14137,14222,14317,14440,14515,14550"
+                    }
+                },
+                {
+                    "source": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "116",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "183"
+                    },
+                    "to": {
+                        "startLines": "221",
+                        "startColumns": "4",
+                        "startOffsets": "15695",
+                        "endLines": "222",
+                        "endColumns": "12",
+                        "endOffsets": "15761"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "276,439",
+                        "endColumns": "63,166",
+                        "endOffsets": "339,605"
+                    },
+                    "to": {
+                        "startLines": "60,99",
+                        "startColumns": "4,4",
+                        "startOffsets": "3555,6304",
+                        "endColumns": "67,166",
+                        "endOffsets": "3618,6466"
+                    }
+                },
+                {
+                    "source": "D:\\Trabajo\\Urgencias\\urg\\UDAA-Domain\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "104",
+                        "endColumns": "46",
+                        "endOffsets": "146"
+                    },
+                    "to": {
+                        "startLines": "137",
+                        "startColumns": "4",
+                        "startOffsets": "9594",
+                        "endColumns": "46",
+                        "endOffsets": "9636"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\ce8df1b86e5ccafd57ace2e7c1c90fb2\\support-media-compat-28.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
+                    },
+                    "to": {
+                        "startLines": "13,14,17,45,46,47,48,59,210,212,213,218,220",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "719,808,975,2793,2846,2899,2952,3495,14873,15049,15171,15433,15628",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "803,874,1043,2841,2894,2947,3000,3550,14934,15166,15227,15494,15690"
+                    }
+                },
+                {
+                    "source": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,6,9,2,11,10,12,13,4,5,3",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "284,244,331,57,443,391,501,558,151,190,108",
+                        "endColumns": "39,38,58,49,56,50,55,68,37,52,41",
+                        "endOffsets": "319,278,385,102,495,437,552,622,184,238,145"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,11,15,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "166,206,245,304,354,411,462,587,879,1122,1175",
+                        "endColumns": "39,38,58,49,56,50,55,68,37,52,41",
+                        "endOffsets": "201,240,299,349,406,457,513,651,912,1170,1212"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,187,245,7725,7795,7863,7935,8005,8066,8140,8213,8274,8335,8397,8461,8523,8584,8652,8752,8812,8878,8951,9020,9077,9129,9191,9263,9339,9374,9409,9459,9520,9577,9611,9646,9681,9751,9822,9939,10140,10250,10451,10580,10652,319,617,3523,5588,7348",
+                        "endLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,170,171,175,176,177,178,12,55,87,124,131",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
+                        "endOffsets": "119,182,240,314,7790,7858,7930,8000,8061,8135,8208,8269,8330,8392,8456,8518,8579,8647,8747,8807,8873,8946,9015,9072,9124,9186,9258,9334,9369,9404,9454,9515,9572,9606,9641,9676,9746,9817,9934,10135,10245,10446,10575,10647,10714,612,3518,5583,7343,7720"
+                    },
+                    "to": {
+                        "startLines": "10,12,16,18,21,22,23,24,25,26,27,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,49,50,51,52,53,54,55,56,57,58,61,188,205,206,211,214,219,223,224,228,334,377,409,446",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "518,656,917,1048,1217,1287,1355,1427,1497,1558,1632,1815,1876,1937,1999,2063,2125,2186,2254,2354,2414,2480,2553,2622,2679,2731,3005,3077,3153,3188,3223,3273,3334,3391,3425,3460,3623,13329,14555,14672,14939,15232,15499,15766,15838,16050,22167,25073,27138,28898",
+                        "endLines": "10,12,16,18,21,22,23,24,25,26,27,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,49,50,51,52,53,54,55,56,57,58,61,188,205,209,211,217,219,223,224,234,376,408,445,452",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
+                        "endOffsets": "582,714,970,1117,1282,1350,1422,1492,1553,1627,1700,1871,1932,1994,2058,2120,2181,2249,2349,2409,2475,2548,2617,2674,2726,2788,3072,3148,3183,3218,3268,3329,3386,3420,3455,3490,3688,13395,14667,14868,15044,15428,15623,15833,15900,16343,25068,27133,28893,29270"
+                    }
+                },
+                {
+                    "source": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "59,115",
+                        "endColumns": "54,54",
+                        "endOffsets": "109,165"
+                    },
+                    "to": {
+                        "startLines": "28,29",
+                        "startColumns": "4,4",
+                        "startOffsets": "1705,1760",
+                        "endColumns": "54,54",
+                        "endOffsets": "1755,1810"
+                    }
+                },
+                {
+                    "source": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\generated\\res\\google-services\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,309,391,495,598,718,817",
+                        "endColumns": "143,109,81,103,102,119,98,75",
+                        "endOffsets": "194,304,386,490,593,713,812,888"
+                    },
+                    "to": {
+                        "startLines": "103,129,130,131,132,133,134,170",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "6664,8878,8988,9070,9174,9277,9397,12155",
+                        "endColumns": "143,109,81,103,102,119,98,75",
+                        "endOffsets": "6803,8983,9065,9169,9272,9392,9491,12226"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\11cef7be4bb70b9fd1d597cacc817d16\\coordinatorlayout-28.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,102,3,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,5935,116,724",
+                        "endLines": "2,104,12,101",
+                        "endColumns": "60,12,24,24",
+                        "endOffsets": "111,6075,719,5930"
+                    },
+                    "to": {
+                        "startLines": "2,225,235,245",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "105,15905,16348,16956",
+                        "endLines": "2,227,244,333",
+                        "endColumns": "60,12,24,24",
+                        "endOffsets": "161,16045,16951,22162"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ro_values-ro.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "309",
+                        "endColumns": "100",
+                        "endOffsets": "405"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "203",
+                        "endOffsets": "488"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "203",
+                        "endOffsets": "304"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-mn_values-mn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "314",
+                        "endColumns": "100",
+                        "endOffsets": "410"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-mn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "208",
+                        "endOffsets": "493"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "208",
+                        "endOffsets": "309"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-sq_values-sq.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-sq\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "187",
+                        "endOffsets": "472"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "187",
+                        "endOffsets": "288"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "293",
+                        "endColumns": "100",
+                        "endOffsets": "389"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-gl_values-gl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-gl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "192",
+                        "endOffsets": "477"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "192",
+                        "endOffsets": "293"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "298",
+                        "endColumns": "100",
+                        "endOffsets": "394"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-te_values-te.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "304",
+                        "endColumns": "100",
+                        "endOffsets": "400"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-te\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "198",
+                        "endOffsets": "483"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "198",
+                        "endOffsets": "299"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-km_values-km.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-km\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "207",
+                        "endOffsets": "492"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "207",
+                        "endOffsets": "308"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "313",
+                        "endColumns": "100",
+                        "endOffsets": "409"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\res\\values-v11\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "116",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "194"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "132"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-pl_values-pl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-pl\\values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "304",
+                        "endColumns": "100",
+                        "endOffsets": "400"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-pl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "198",
+                        "endOffsets": "483"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "198",
+                        "endOffsets": "299"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "307",
+                        "endColumns": "100",
+                        "endOffsets": "403"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-mr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "201",
+                        "endOffsets": "486"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "201",
+                        "endOffsets": "302"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-az_values-az.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "326",
+                        "endColumns": "100",
+                        "endOffsets": "422"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-az\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "220",
+                        "endOffsets": "505"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "220",
+                        "endOffsets": "321"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-es\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "218",
+                        "endOffsets": "503"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "218",
+                        "endOffsets": "319"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-es\\values-es.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "324",
+                        "endColumns": "100",
+                        "endOffsets": "420"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-it\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "194",
+                        "endOffsets": "479"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "194",
+                        "endOffsets": "295"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "300",
+                        "endColumns": "100",
+                        "endOffsets": "396"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ka_values-ka.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "307",
+                        "endColumns": "100",
+                        "endOffsets": "403"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ka\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "201",
+                        "endOffsets": "486"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "201",
+                        "endOffsets": "302"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-v16_values-v16.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-mk_values-mk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-mk\\values-mk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "301",
+                        "endColumns": "100",
+                        "endOffsets": "397"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-mk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "195",
+                        "endOffsets": "480"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "195",
+                        "endOffsets": "296"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-cs_values-cs.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "307",
+                        "endColumns": "100",
+                        "endOffsets": "403"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-cs\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "201",
+                        "endOffsets": "486"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "201",
+                        "endOffsets": "302"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-ky_values-ky.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-ky\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "220",
+                        "endOffsets": "505"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "220",
+                        "endOffsets": "321"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "326",
+                        "endColumns": "100",
+                        "endOffsets": "422"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-bn_values-bn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-bn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "210",
+                        "endOffsets": "495"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "210",
+                        "endOffsets": "311"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-bn\\values-bn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "316",
+                        "endColumns": "100",
+                        "endOffsets": "412"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Trabajo\\Urgencias\\urg\\HCDigital\\build\\intermediates\\res\\merged\\release\\values-el_values-el.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3e4c7e033fe9a9b4adec01d5a5fcbca8\\play-services-basement-10.2.1\\res\\values-el\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "222",
+                        "endOffsets": "507"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "222",
+                        "endOffsets": "323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SantIDema\\.gradle\\caches\\transforms-2\\files-2.1\\3395a137faa3b9205e2f50fbb242a6aa\\support-compat-28.0.0\\res\\values-el\\values-el.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endColumns": "100",
+                        "endOffsets": "424"
+                    }
+                }
+            ]
+        }
+    ]
+}

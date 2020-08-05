@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">768691457828-8osrebmjcad16a5bn8agnqfv9hqn1q7h.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://hcdigital-7a2bc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">768691457828</string>
+    <string name="google_api_key" translatable="false">AIzaSyCn1lxv15T3rUcR0iMah2XHUq5JB8_DGtI</string>
+    <string name="google_app_id" translatable="false">1:768691457828:android:d982d4ca8a95e8f4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCn1lxv15T3rUcR0iMah2XHUq5JB8_DGtI</string>
+    <string name="google_storage_bucket" translatable="false">hcdigital-7a2bc.appspot.com</string>
+    <string name="project_id" translatable="false">hcdigital-7a2bc</string>
+</resources>

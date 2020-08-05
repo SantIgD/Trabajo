@@ -1,0 +1,407 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="coop.tecso.hcd"
+4    android:versionCode="1"
+5    android:versionName="5.18.5 URG" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml
+10
+11    <!-- permission properties -->
+12
+13
+14    <!-- Local Storage access -->
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:12:5-81
+15-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:12:22-78
+16    <!-- Internet access -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:14:5-67
+17-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:14:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:15:5-79
+18-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:15:22-76
+19
+20    <!-- Bluetooth access -->
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:18:5-68
+21-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:18:22-65
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+22-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:19:5-74
+22-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:19:22-71
+23
+24    <!-- Camera access -->
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:22:5-65
+25-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:22:22-62
+26
+27    <!-- Hotspot Wifi access -->
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:25:5-76
+28-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:25:22-73
+29    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+29-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:26:5-76
+29-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:26:22-73
+30    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+30-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:27:5-79
+30-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:27:22-76
+31    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+31-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:28:5-81
+31-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:28:22-78
+32
+33    <!-- Phone access -->
+34    <uses-permission android:name="android.permission.CALL_PHONE" />
+34-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:31:5-69
+34-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:31:22-66
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:33:5-68
+35-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:33:22-65
+36    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+36-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:35:5-77
+36-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:35:22-74
+37    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+37-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:37:5-82
+37-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:37:22-80
+38    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+38-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:39:5-40:47
+38-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:39:22-70
+39
+40    <!-- uses feature settings -->
+41    <uses-feature android:name="android.hardware.microphone" />
+41-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:43:5-64
+41-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:43:19-61
+42    <uses-feature android:name="android.hardware.bluetooth" />
+42-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:44:5-63
+42-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:44:19-60
+43    <uses-feature
+43-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:45:5-47:35
+44        android:name="android.hardware.camera"
+44-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:46:9-47
+45        android:required="true" />
+45-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:47:9-32
+46    <uses-feature
+46-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:48:5-50:36
+47        android:name="android.hardware.telephony"
+47-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:49:9-50
+48        android:required="false" />
+48-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:50:9-33
+49
+50    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+50-->[:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-71
+50-->[:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\release\AndroidManifest.xml:12:22-68
+51    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+51-->[:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-75
+51-->[:UDAADomain] D:\Trabajo\Urgencias\urg\UDAA-Domain\build\intermediates\library_manifest\release\AndroidManifest.xml:13:22-72
+52    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+52-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:22:5-81
+52-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:22:22-79
+53
+54    <permission
+54-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:24:5-109
+55        android:name="coop.tecso.hcd.permission.C2D_MESSAGE"
+55-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:24:17-71
+56        android:protectionLevel="signature" />
+56-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:24:72-107
+57
+58    <uses-permission android:name="coop.tecso.hcd.permission.C2D_MESSAGE" />
+58-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:26:5-78
+58-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:26:22-76
+59
+60    <application
+60-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:52:5-145:19
+61        android:name="coop.tecso.hcd.application.HCDigitalApplication"
+61-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:53:9-71
+62        android:allowBackup="false"
+62-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:61:9-36
+63        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+63-->[com.android.support:support-compat:28.0.0] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3395a137faa3b9205e2f50fbb242a6aa\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+64        android:configChanges="keyboardHidden|orientation|screenSize"
+64-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:54:9-70
+65        android:icon="@drawable/app_icon"
+65-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:55:9-42
+66        android:label="@string/app_name"
+66-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:58:9-41
+67        android:largeHeap="true"
+67-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:56:9-33
+68        android:theme="@style/URGTheme" >
+68-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:57:9-40
+69        <uses-library
+69-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:63:9-88
+70            android:name="org.apache.http.legacy"
+70-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:63:23-60
+71            android:required="false" />
+71-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:63:61-85
+72
+73        <!-- Activities -->
+74        <activity
+74-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:66:9-78:20
+75            android:name="coop.tecso.hcd.activities.MainActivity"
+75-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:67:13-52
+76            android:alwaysRetainTaskState="true"
+76-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:68:13-49
+77            android:configChanges="keyboardHidden|orientation|screenSize"
+77-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:69:13-74
+78            android:exported="true"
+78-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:72:13-36
+79            android:label="@string/app_name"
+79-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:70:13-45
+80            android:launchMode="singleTop" >
+80-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:71:13-43
+81            <intent-filter>
+81-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:74:13-77:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:75:17-69
+82-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:75:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:76:17-77
+84-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:76:27-74
+85            </intent-filter>
+86        </activity>
+87        <activity
+87-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:79:9-84:48
+88            android:name="coop.tecso.hcd.activities.MainHCActivity"
+88-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:80:13-54
+89            android:alwaysRetainTaskState="true"
+89-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:81:13-49
+90            android:configChanges="keyboardHidden|orientation|screenSize"
+90-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:83:13-74
+91            android:label="@string/app_name"
+91-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:84:13-45
+92            android:windowSoftInputMode="adjustResize" />
+92-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:82:13-55
+93        <activity
+93-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:85:9-90:48
+94            android:name="coop.tecso.hcd.activities.TabHostActivity"
+94-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:86:13-55
+95            android:alwaysRetainTaskState="true"
+95-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:87:13-49
+96            android:configChanges="keyboardHidden|orientation|screenSize"
+96-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:89:13-74
+97            android:label="@string/app_name"
+97-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:90:13-45
+98            android:windowSoftInputMode="adjustResize" />
+98-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:88:10-52
+99        <activity
+99-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:91:9-95:48
+100            android:name="coop.tecso.hcd.activities.RegisterActivity"
+100-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:93:13-56
+101            android:alwaysRetainTaskState="true"
+101-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:92:13-49
+102            android:configChanges="keyboardHidden|orientation|screenSize"
+102-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:94:13-74
+103            android:label="@string/app_name" />
+103-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:95:13-45
+104        <activity
+104-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:96:9-100:48
+105            android:name="coop.tecso.hcd.activities.FirmaActivity"
+105-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:97:13-53
+106            android:alwaysRetainTaskState="true"
+106-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:98:13-49
+107            android:configChanges="keyboardHidden|orientation|screenSize"
+107-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:99:13-74
+108            android:label="@string/app_name" />
+108-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:100:13-45
+109        <activity
+109-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:101:9-106:48
+110            android:name="coop.tecso.hcd.activities.PdfRendererActivity"
+110-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:102:13-59
+111            android:alwaysRetainTaskState="true"
+111-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:103:13-49
+112            android:configChanges="keyboardHidden|orientation|screenSize"
+112-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:104:13-74
+113            android:label="@string/app_name"
+113-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:106:13-45
+114            android:screenOrientation="landscape" />
+114-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:105:13-50
+115        <activity
+115-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:107:9-112:46
+116            android:name="coop.tecso.hcd.activities.SignActivity"
+116-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:108:13-52
+117            android:alwaysRetainTaskState="true"
+117-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:109:13-49
+118            android:configChanges="keyboardHidden|orientation|screenSize"
+118-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:110:13-74
+119            android:label="@string/app_name"
+119-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:111:13-45
+120            android:launchMode="singleTop" />
+120-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:112:13-43
+121        <activity
+121-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:113:9-117:48
+122            android:name="coop.tecso.hcd.activities.DispatcherActivity"
+122-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:114:13-58
+123            android:alwaysRetainTaskState="true"
+123-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:115:13-49
+124            android:configChanges="keyboardHidden|orientation|screenSize"
+124-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:116:13-74
+125            android:label="@string/app_name" />
+125-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:117:13-45
+126        <!-- Services -->
+127        <service
+127-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:119:9-122:19
+128            android:name="coop.tecso.hcd.services.SyncAtencionService"
+128-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:120:13-57
+129            android:enabled="true" >
+129-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:121:13-35
+130        </service>
+131        <service android:name="coop.tecso.hcd.services.FirebaseMSGService" >
+131-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:123:3-127:19
+131-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:123:12-55
+132            <intent-filter>
+132-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:124:13-126:29
+133                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+133-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:125:17-77
+133-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:125:25-75
+134            </intent-filter>
+135        </service>
+136        <service android:name="coop.tecso.hcd.services.FirebaseIDService" >
+136-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:129:9-133:19
+136-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:129:18-60
+137            <intent-filter>
+137-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:130:13-132:29
+138                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+138-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:131:17-79
+138-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:131:25-77
+139            </intent-filter>
+140        </service>
+141
+142        <provider
+142-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:135:9-143:20
+143            android:name="android.support.v4.content.FileProvider"
+143-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:136:13-67
+144            android:authorities="com.fantommers.hc.fileprovider"
+144-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:137:13-65
+145            android:exported="false"
+145-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:139:13-37
+146            android:grantUriPermissions="true" >
+146-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:138:13-47
+147            <meta-data
+147-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:140:13-142:53
+148                android:name="android.support.FILE_PROVIDER_PATHS"
+148-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:141:17-67
+149                android:resource="@xml/filepaths" />
+149-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:142:17-50
+150        </provider>
+151
+152        <!--
+153         FirebaseMessagingService performs security checks at runtime,
+154             no need for explicit permissions despite exported="true"
+155        -->
+156        <service
+156-->[com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:23:9-27:19
+157            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+157-->[com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:23:18-87
+158            android:exported="true" >
+158-->[com.google.firebase:firebase-messaging:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\a44d7178d083169c2f7894b577a0cc3a\firebase-messaging-10.2.1\AndroidManifest.xml:23:88-111
+159            <intent-filter android:priority="-500" >
+159-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:124:13-126:29
+160                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+160-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:125:17-77
+160-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:125:25-75
+161            </intent-filter>
+162        </service>
+163
+164        <receiver
+164-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:25:7-26:18
+165            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+165-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:25:17-89
+166            android:enabled="true"
+166-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:25:90-112
+167            android:exported="false" >
+167-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:25:113-137
+168        </receiver>
+169        <receiver
+169-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:27:7-31:18
+170            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+170-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:27:17-104
+171            android:enabled="true"
+171-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:27:162-184
+172            android:permission="android.permission.INSTALL_PACKAGES" >
+172-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:27:105-161
+173            <intent-filter>
+173-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:28:11-30:27
+174                <action android:name="com.android.vending.INSTALL_REFERRER" />
+174-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:29:15-76
+174-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:29:23-74
+175            </intent-filter>
+176        </receiver>
+177
+178        <service
+178-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:32:7-137
+179            android:name="com.google.android.gms.measurement.AppMeasurementService"
+179-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:32:16-87
+180            android:enabled="true"
+180-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:32:88-110
+181            android:exported="false" />
+181-->[com.google.firebase:firebase-analytics:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\bf0d0fec4c22182c5ce336536edb275a\firebase-analytics-10.2.1\AndroidManifest.xml:32:111-135
+182
+183        <receiver
+183-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:30:9-35:20
+184            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+184-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:30:19-84
+185            android:exported="true"
+185-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:30:85-108
+186            android:permission="com.google.android.c2dm.permission.SEND" >
+186-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:30:109-169
+187            <intent-filter>
+187-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:31:13-34:29
+188                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+188-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:32:17-80
+188-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:32:25-78
+189
+190                <category android:name="coop.tecso.hcd" />
+190-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:33:17-60
+190-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:33:27-58
+191            </intent-filter>
+192        </receiver>
+193        <!--
+194 Internal (not exported) receiver used by the app to start its own exported services
+195             without risk of being spoofed.
+196        -->
+197        <receiver
+197-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:39:9-119
+198            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+198-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:39:19-92
+199            android:exported="false" />
+199-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:39:93-117
+200        <!--
+201 FirebaseInstanceIdService performs security checks at runtime,
+202             no need for explicit permissions despite exported="true"
+203        -->
+204        <service
+204-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:43:9-47:19
+205            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+205-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:43:18-82
+206            android:exported="true" >
+206-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\75ef5f52aa6d47c04e5c9229b4d81791\firebase-iid-10.2.1\AndroidManifest.xml:43:83-106
+207            <intent-filter android:priority="-500" >
+207-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:130:13-132:29
+208                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+208-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:131:17-79
+208-->D:\Trabajo\Urgencias\urg\HCDigital\AndroidManifest.xml:131:25-77
+209            </intent-filter>
+210        </service>
+211
+212        <provider
+212-->[com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:6:9-194
+213            android:name="com.google.firebase.provider.FirebaseInitProvider"
+213-->[com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:6:79-143
+214            android:authorities="coop.tecso.hcd.firebaseinitprovider"
+214-->[com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:6:19-78
+215            android:exported="false"
+215-->[com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:6:144-168
+216            android:initOrder="100" />
+216-->[com.google.firebase:firebase-common:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\4a0f7b0c61caf3c4a30c079d1391c06f\firebase-common-10.2.1\AndroidManifest.xml:6:169-192
+217
+218        <meta-data
+218-->[com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:20:9-121
+219            android:name="com.google.android.gms.version"
+219-->[com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:20:20-65
+220            android:value="@integer/google_play_services_version" />
+220-->[com.google.android.gms:play-services-basement:10.2.1] C:\Users\SantIDema\.gradle\caches\transforms-2\files-2.1\3e4c7e033fe9a9b4adec01d5a5fcbca8\play-services-basement-10.2.1\AndroidManifest.xml:20:66-119
+221    </application>
+222
+223</manifest>

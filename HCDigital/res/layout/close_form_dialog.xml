@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewCodigoAtencion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Código Atención:" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutDatosCierre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewCierreTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"
+                    android:text="Datos del Cierre"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </HorizontalScrollView>
+
+            <TableLayout
+                android:id="@+id/tableLayoutDatosCierre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal" >
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:text="@string/tipo_cierre_tittle" />
+
+                    <Spinner
+                        android:id="@+id/spinnerEstado"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawSelectorOnTop="true"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:prompt="@string/tipo_cierre_select_prompt" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/textViewPromocion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:text="@string/close_promocion_tittle" />
+
+                    <Spinner
+                        android:id="@+id/spinnerPromocion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawSelectorOnTop="true"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:prompt="@string/close_promocion_prompt" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/editTextObsCieDef"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top|left"
+                    android:hint="Observaciones"
+                    android:inputType="textMultiLine"
+                    android:lines="3" />
+            </LinearLayout>
+            
+       
+<!--             		| agregado [Datos del firmante]|              -->
+
+            <LinearLayout
+                android:id="@+id/linearLayoutDatosCierre2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/textViewCierreTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"
+                    android:text="Datos del firmante"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutDatosFirmante"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical" >
+                
+                <TableLayout
+                    android:id="@+id/tableLayoutDatosFirmante"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal" >
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/textViewApellidoYNombre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:text="Apellido y Nombre:" />
+
+                        <EditText
+                            android:id="@+id/editTextApellidoYNombre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="0.2"
+                            android:ems="10"
+                            android:inputType="textPersonName" >
+
+                            <requestFocus />
+                        </EditText>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/textViewTipoDNI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tipo DNI:" />
+                        <Spinner
+                            android:id="@+id/spinnerTipoDNI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:drawSelectorOnTop="true"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/textViewDNI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="DNI:" />
+                        <EditText
+                            android:id="@+id/editTextDNI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="numberSigned" >
+
+                            <requestFocus />
+                        </EditText>
+                    </TableRow>
+                    
+               
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/buttonSign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sign_title" />
+
+                    <ImageView
+                        android:id="@+id/imageViewSign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@android:color/white"
+                        android:contentDescription="@string/sign_text_msg" />
+                </TableRow>
+                    
+                 <TableRow>
+                        <Button
+                            android:id="@+id/buttonSignAc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sign_titleAc" />
+                        <ImageView
+                            android:id="@+id/imageViewSignAc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/white"
+                            android:contentDescription="@string/sign_text_msg" />
+                    </TableRow>
+                    <TableRow>
+                        <CheckBox
+                            android:id="@+id/checkBox1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="Es Titular" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+<!--             		|fin agregado|-->
+
+
+<!--             		| agregado [resumen ]|-->
+            <LinearLayout
+                android:id="@+id/linearLayoutDatosCierre3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"  
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:id="@+id/textViewCierreTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"
+                    android:text="Resumen de la Solicitud"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+            <!-- ##############################1########################################### -->
+            <LinearLayout
+                android:id="@+id/layoutDetalleProducto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:id="@+id/layoutDetalleProducto1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:id="@+id/layoutDetalleProductoTitulo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Producto seleccionado:"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/layoutDetalleProductoDesc1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:textColor="@color/white"
+                        android:paddingLeft="5dp"
+                        android:text="" />
+                </LinearLayout>
+                <!-- ##############################2########################################### -->
+
+                <LinearLayout
+                    android:id="@+id/layoutDetalleProducto2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/layoutDetalleProductoTitulo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cantidad de Personas del Grupo Familiar:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/layoutDetalleProductoDesc2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:textColor="@color/white"
+                        android:paddingLeft="5dp"
+                        android:text="" />
+                </LinearLayout>
+                <!-- ##############################3########################################### -->
+
+                <LinearLayout
+                    android:id="@+id/layoutDetalleProducto3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/layoutDetalleProductoTitulo3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Forma de Pago:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/layoutDetalleProductoDesc3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:textColor="@color/white"
+                        android:paddingLeft="5dp"
+                        android:text="" />
+                </LinearLayout>
+                <!-- ###############################4########################################## -->
+
+                <LinearLayout
+                    android:id="@+id/layoutDetalleProducto4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal"    
+                    >
+
+                    <TextView
+                        android:id="@+id/layoutDetalleProductoTitulo4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre del Convenio:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/layoutDetalleProductoDesc4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:textColor="@color/white"
+                        android:paddingLeft="5dp"
+                        android:text="" />
+                </LinearLayout>
+                <!-- #################################5######################################## -->
+
+                <LinearLayout
+                    android:id="@+id/layoutDetalleProducto5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal" 
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:id="@+id/layoutDetalleProductoTitulo5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Importe Total de la Afiliación:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/layoutDetalleProductoDesc5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- fin agregado resumen -->
+
+            <LinearLayout
+                android:id="@+id/linearLayoutDatosCierre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/textViewCierreTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"
+                    android:text="Total"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/cierreImporteTotal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text=" $ "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutDatosCierre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutCampo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewCampoTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"
+                    android:text="Campos"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewCampo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Campo01" />
+
+                <TextView
+                    android:id="@+id/textViewCampo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Campo02" />
+
+                <TextView
+                    android:id="@+id/textViewCampo3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Campo03" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMedico"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewMedicoTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"
+                    android:text="Datos del Promotor"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/editTextIdMedico"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Id. Medico"
+                    android:numeric="integer"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="number"
+                    android:password="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@android:style/ButtonBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/buttonCancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cancel" />
+
+                <Button
+                    android:id="@+id/buttonConfirm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="@string/accept" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
