@@ -1,2 +1,0 @@
-include ':UDAADomain'
-project(':UDAADomain').projectDir= new File('../UDAA-Domain')
