@@ -5,7 +5,7 @@ interface IUDAAService {
 	String getCurrentUser();
 	
 	String getServerURL();
-
+	
 	boolean isTransTypePartial();
 	
 	String getAplicacionPerfilById(int aplicacionPerfilId); 
@@ -16,7 +16,7 @@ interface IUDAAService {
 	
 	String login(String username, String password);
 	
-	String getDispositivoMovil();
+	String getDispositivoMovil(); 
 	
 	String getNotificacionById(int notificacionID);
 	
@@ -38,12 +38,12 @@ interface IUDAAService {
 	
 	String exportDataToFile(String jSonData);
 	
-	String getLastAplicacionBinarioVersionByCodigoAplicacion(String appCode); 
+	String getLastAplicacionBinarioVersionByCodigoAplicacion(String appCode);
 	
 	String confirmForceUpdate(String appCode, boolean lastAppToUpdate);
-		
+	
 	void updateApplicationSync(String appCode);
-				
+		
 	String rawQueryList(String sql, String selectionArgs);
 	
 	String rawQueryCiudades(String sql, String selectionArgs);
