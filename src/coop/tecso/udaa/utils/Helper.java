@@ -1,9 +1,7 @@
 package coop.tecso.udaa.utils;
 
-import android.content.Context;
 import android.text.TextUtils;
 
-import coop.tecso.udaa.base.UdaaApplication;
 import coop.tecso.udaa.domain.seguridad.DispositivoMovil;
 
 public class Helper {
@@ -15,6 +13,16 @@ public class Helper {
 
     public static boolean isContingencia(DispositivoMovil dispositivoMovil) {
         //return dispositivoMovil.getContingencia();
-        return true;
+        return false;
+    }
+
+    public static void sleep(int milis){
+
+            try {
+                Thread.sleep(milis);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
     }
 }

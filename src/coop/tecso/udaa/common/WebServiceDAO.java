@@ -107,8 +107,10 @@ public final class WebServiceDAO  {
 				throw new UDAAException(ErrorConstants.ERROR_106);
 			}else if(response.contains("Error-107")){
 				throw new UDAAException(ErrorConstants.ERROR_107);
-			}else if(response.contains("Error-108")){
+			}else if(response.contains("Error-108")) {
 				throw new UDAAException(ErrorConstants.ERROR_108);
+			}else if(response.contains("Error-116")){
+				throw new UDAAException(response);
 			}else if(response.toUpperCase().contains("ERROR")){
 				throw new UDAAException(ErrorConstants.ERROR_103);
 			}

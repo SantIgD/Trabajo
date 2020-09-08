@@ -140,13 +140,13 @@ public class LoginTask extends AsyncTask<Void, CharSequence, String> {
                 String defaultGmailAccount = DeviceContext.getEmail(loginActivity);
                 Log.i(LOG_TAG, "Default Google mail account: " + defaultGmailAccount);
                 logUtils.generateLoginLog("Login -> WebService identifyDM GmailAccount Start");
-                DispositivoMovil dispositivoMovil = WebServiceDAO.identifyDM(defaultGmailAccount);
-                logUtils.generateLoginLog("Login -> WebService identifyDM GmailAccount End");
-                Log.i(LOG_TAG, "Device ID from server: " + dispositivoMovil.getId());
+                //DispositivoMovil dispositivoMovil = WebServiceDAO.identifyDM(defaultGmailAccount);
+                //logUtils.generateLoginLog("Login -> WebService identifyDM GmailAccount End");
+               // Log.i(LOG_TAG, "Device ID from server: " + dispositivoMovil.getId());
 
                 // Se llama al servicio de login remoto
                 logUtils.generateLoginLog("Login -> WebService login Start");
-                RemoteLoginPerformer remoteLoginPerformer = new RemoteLoginPerformer(user,password,dispositivoMovil);
+                RemoteLoginPerformer remoteLoginPerformer = new RemoteLoginPerformer(user,password,null,loginActivity);
                 UsuarioApm usuario = remoteLoginPerformer.performLogin();
                 logUtils.generateLoginLog("Login -> WebService login End");
                 if (usuario == null) {
@@ -155,13 +155,13 @@ public class LoginTask extends AsyncTask<Void, CharSequence, String> {
                 logUtils.generateLoginLog("Login -> UDAA UpdateUsuarioApm DispositivoMovil Start");
 
                 udaaDao.createOrUpdateUsuarioApm(usuario);
-                udaaDao.createOrUpdateDispositivoMovil(dispositivoMovil);
+               // udaaDao.createOrUpdateDispositivoMovil(dispositivoMovil);
 
                 logUtils.generateLoginLog("Login -> UDAA UpdateUsuarioApm DispositivoMovil End");
 
                 //subo propiedades al contexto
                 udaaApplication.setCurrentUser(usuario);
-                udaaApplication.setDispositivoMovil(dispositivoMovil);
+               // udaaApplication.setDispositivoMovil(dispositivoMovil);
 
             }
 
